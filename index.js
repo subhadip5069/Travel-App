@@ -16,9 +16,9 @@ const PORT = process.env.PORT || 3005; // Use .env port or default to 3005
 
 // Set up view directories correctly
 app.set("views", [
-    path.join(__dirname, "app/views"),
-    path.join(__dirname, "app/modules/www"),
-    path.join(__dirname, "app/modules/admin"),
+    path.join("app/views"),
+    path.join("app/modules/www"),
+    path.join("app/modules/admin"),
 ]);
 app.engine("ejs", engine);
 app.set("view engine", "ejs");
