@@ -1,9 +1,11 @@
 {
     "name": "assessment-3",
     "version": "1.0.0",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
-        "start": "nodemon server.js"
+        "dev": "nodemon index.js",
+        "start": "node ./index.js",
+        "build":"npm run build"
     },
     "keywords": [],
     "author": "",
